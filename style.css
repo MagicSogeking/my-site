@@ -172,3 +172,15 @@ nav a:hover {
 .page-donate .amounts {
   margin-top: 20px;
 }
+.link-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  color: #eee;
+}
