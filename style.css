@@ -84,12 +84,19 @@ nav a:hover {
 }
 
 .acct-num {
+  .acct-num a {
+  color: inherit !important;
+  text-decoration: none !important;
+  pointer-events: none;
+}
   font-family: "Consolas", "SF Mono", "Menlo", monospace;
   font-size: 18px;
   color: #fff;
 }
 
 .copy-btn {
+  min-width: 120px;
+  text-align: center;
   font: inherit;
   font-size: 13px;
   color: #eee;
@@ -99,6 +106,7 @@ nav a:hover {
   padding: 6px 12px;
   cursor: pointer;
   transition: border-color 0.18s ease, background 0.18s ease;
+  
 }
 
 .copy-btn:hover {
