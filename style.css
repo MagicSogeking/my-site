@@ -28,7 +28,64 @@ body {
       border-radius: 6px;
       text-decoration: none;
       font-weight: 600;
+      flex-wrap: wrap;
     }
     .links a:hover {
       background: #4da3ff;
     }
+    nav {
+  margin-bottom: 48px;
+}
+
+nav a {
+  color: #888;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #4da3ff;
+}
+
+.account {
+  margin-top: 40px;
+}
+
+.bank {
+  color: #888;
+  margin-bottom: 8px;
+}
+
+.acct-num {
+  font-family: ui-monospace, "Courier New", monospace;
+  font-size: 24px;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.holder {
+  color: #888;
+  margin-top: 8px;
+}
+
+.qr-block {
+  margin-top: 48px;
+}
+
+.qr {
+  width: 200px;
+  max-width: 100%;
+  background: #fff;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.qr-note {
+  color: #888;
+  font-size: 14px;
+}
+
+.amounts {
+  color: #888;
+  font-size: 15px;
+  margin-top: 40px;
+}
