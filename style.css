@@ -4,35 +4,51 @@ body {
       color: #eee;
       max-width: 640px;
       margin: 0 auto;
-      padding: 80px 24px;
+      padding: 96px 24px;
       line-height: 1.6;
     }
     h1 {
-      font-size: 48px;
-      margin-bottom: 8px;
-    }
+  font-size: 40px;
+  letter-spacing: -1px;
+}
     .tagline {
       color: #888;
       font-size: 18px;
       margin-top: 0;
     }
     .links {
-      display: flex;
-      gap: 30px;
-      margin-top: 32px;
-    }
-    .links a {
-      color: #111;
-      background: #eee;
-      padding: 12px 20px;
-      border-radius: 6px;
-      text-decoration: none;
-      font-weight: 600;
-      flex-wrap: wrap;
-    }
-    .links a:hover {
-      background: #4da3ff;
-    }
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.links a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #eee;
+  background: transparent;
+  border: 1px solid #555;
+  padding: 16px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: border-color 0.18s ease, background 0.18s ease, transform 0.18s ease;
+}
+
+.links a:hover {
+  border-color: #4da3ff;
+  background: rgba(255, 255, 255, 0.04);
+  transform: translateY(-2px);
+}
+
+.links a::after {
+  content: "→";
+  color: #777;
+  font-size: 14px;
+}
     nav {
   margin-bottom: 48px;
 }
