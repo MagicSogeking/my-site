@@ -63,45 +63,76 @@ nav a:hover {
 }
 
 .account {
-  margin-top: 40px;
+  margin-top: 0;
 }
 
-.bank {
+.row {
+  margin: 0 0 10px 0;
+  color: #eee;
+}
+
+.label {
   color: #888;
-  margin-bottom: 8px;
+  margin-right: 8px;
+}
+
+.acct-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
 }
 
 .acct-num {
-  font-family: ui-monospace, "Courier New", monospace;
-  font-size: 24px;
-  letter-spacing: 1px;
-  margin: 0;
+  font-family: "Consolas", "SF Mono", "Menlo", monospace;
+  font-size: 18px;
+  color: #fff;
 }
 
-.holder {
-  color: #888;
-  margin-top: 8px;
+.copy-btn {
+  font: inherit;
+  font-size: 13px;
+  color: #eee;
+  background: transparent;
+  border: 1px solid #555;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: border-color 0.18s ease, background 0.18s ease;
 }
 
-.qr-block {
-  margin-top: 48px;
+.copy-btn:hover {
+  border-color: #4da3ff;
+  background: rgba(255, 255, 255, 0.04);
+}
+.page-donate {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
-.qr {
-  width: 200px;
-  max-width: 100%;
-  background: #fff;
-  padding: 12px;
-  border-radius: 8px;
+.page-donate nav {
+  margin-bottom: 24px;
 }
 
-.qr-note {
-  color: #888;
-  font-size: 14px;
+.page-donate h1 {
+  font-size: 28px;
+  margin-bottom: 6px;
 }
 
-.amounts {
-  color: #888;
-  font-size: 15px;
+.page-donate .tagline {
+  color: #eee;
+  font-size: 19px;
+  margin-bottom: 32px;
+}
+
+.page-donate .qr-block {
   margin-top: 40px;
+}
+
+.page-donate .qr {
+  width: 150px;
+}
+
+.page-donate .amounts {
+  margin-top: 20px;
 }
